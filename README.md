@@ -43,3 +43,6 @@ If you got this error on flet: libmpv.so.1 not found (when libmpv is already ins
 ```bash
  sudo ln -s /usr/lib/libmpv.so /usr/lib/libmpv.so.1
 ```
+
+# Thanks to lazypy.ro for API
+Check out [**lazypy**](https://lazypy.ro) for more tts voices...
