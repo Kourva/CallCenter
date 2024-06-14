@@ -11,4 +11,35 @@
     </tr>
   </tbody>
 </table>
+  <h3><b>Call Center</b></h3>
+  <p>GUI TTS app made in Flet</p>
 </div>
+
+# Installation
+1. **Clone CallCenter repository**:
+    ```bash
+    git clone https://github.com/Kourva/CallCenter
+    ```
+2. **Nevigate to source file**:
+    ```bash
+    cd CallCenter
+    ```
+3. **Create virtual environment**:
+    ```bash
+    virtualenv venv && source venv/bin/activate
+    ```
+    > Note that you may need to execute different activate file based on your shell
+4. **Install requirements**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+5. **Run the app using flet**:
+    ```bash
+    flet run main.py
+    ```
+
+# Flet Issue
+If you got this error on flet: libmpv.so.1 not found (when libmpv is already installed):
+```bash
+ sudo ln -s /usr/lib/libmpv.so /usr/lib/libmpv.so.1
+```
