@@ -15,6 +15,10 @@
   <p>GUI TTS app made in Flet</p>
 </div>
 
+<div align="center">
+    <img align="center" src="https://github.com/Kourva/CallCenter/assets/118578799/72e45da1-af6b-4197-9ea8-e9857faa15a1"/>
+</div>
+
 # Installation
 1. **Clone CallCenter repository**:
     ```bash
