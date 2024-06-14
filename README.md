@@ -37,9 +37,12 @@
     ```bash
     pip install -r requirements.txt
     ```
-5. **Run the app using flet**:
+5. **Run the app using flet or python**:
     ```bash
     flet run main.py
+    ```
+    ```bash
+    python main.py
     ```
 
 # Flet Issue
