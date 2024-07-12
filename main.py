@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # TTS app made in Flet with pure python
-# Author: Kourva
+# Author: kozyol
 
 
 # Standard Built-in imports
@@ -87,7 +87,7 @@ def call_center(page: ft.page) -> NoReturn:
         icon_color="#55aaff", 
         tooltip="Github",
         on_click=lambda _: webbrowser.open(
-            "https://github.com/kourva/CallCenter"
+            "https://github.com/kozyol/CallCenter"
         )
     )
 
